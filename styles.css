@@ -20,7 +20,6 @@ body {
 
 
 
-
 /**Fix this 
 @media screen and (max-width:533px) {
 	header h1.welcome{		
@@ -48,5 +47,12 @@ header.banner {
 #navigation button span {
 	font-size: 0.75rem;
 } 
+
+
+#services .row i{
+	padding: 2rem;
+	font-size: 4rem;
+}
+
 
 
