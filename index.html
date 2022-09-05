@@ -17,6 +17,13 @@
   <link rel="stylesheet" href="styles.css">
 
   <script type="text/javascript" src="app.js"></script>
+
+  <style>
+    a:active {
+       color: #FF00CC
+    }
+ </style>
+
 </head>
 
 <body>
@@ -25,7 +32,7 @@
   <header class="banner">
 
     <!-- Navigation Bar Start -->
-    <nav id="navigation" class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark py-3">
+    <nav id="navigation" class="navbar navbar-expand-lg fixed-top bg-dark py-3 navbar-dark link-primary">
       <div class="container">
         <a class="navbar-brand" href="#"> <img src="./startbootstrap-agency-gh-pages/assets/img/navbar-logo.svg"
             class="img-fluid" alt=""></a>
@@ -36,20 +43,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item  px-2 ">
-              <a class="nav-link  text-white" href="#services">SERVICES</a>
+            <li class="nav-item  px-2" id="cool">
+              <a class="nav-link  text-white"  href="#services">SERVICES</a>
             </li>
-            <li class="nav-item px-2  ">
-              <a class="nav-link text-white" href="#services">PORFOLIO</a>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white" href="#porfolio">PORFOLIO</a>
             </li>
-            <li class="nav-item px-2  ">
-              <a class="nav-link text-white" href="#services">ABOUT</a>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white" href="#about">ABOUT</a>
             </li>
-            <li class="nav-item px-2  ">
-              <a class="nav-link text-white" href="#services">TEAM</a>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white" href="#team">TEAM</a>
             </li>
-            <li class="nav-item px-2  ">
-              <a class="nav-link text-white" href="#services">CONTACT</a>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -162,9 +169,9 @@
   <!--Porfolio Section End -->
 
   <!--About Section Start-->
-  <section id="about" class="py-5 bg-white">
+  <section id="about" class="bg-white">
     <div class="container">
-      <h2 class="display-6 fw-bold text-center">
+      <h2 class="display-6 fw-bold text-center pt-5">
         ABOUT
       </h2>
       <p class="fst-italic text-secondary mt-3 mb-5 text-center" style="font-weight:500">Lorem ipsum dolor sit amet
@@ -365,7 +372,7 @@
   <!--Companies Section End -->
 
   <!--Contact Us Section Start-->
-  <section class="text-white text-center" id="contact-us">
+  <section class="text-white text-center" id="contact">
     <div class="container-md">
       <h2 class="display-6 fw-bold pt-5">
         CONTACT US

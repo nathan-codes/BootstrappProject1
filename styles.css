@@ -12,6 +12,12 @@ body {
     height: 85vh;
 }
 
+
+#navigation #navbarnav .nav-link:focus,.nav-link:hover{
+    color: #ffc107!important;
+}
+
+
 @media screen and (max-width:765px) {
     .banner-height {
         height: 60vh;
@@ -308,7 +314,7 @@ header.banner {
 }
 
 
-#contact-us {
+#contact{
 
   
    
