@@ -367,3 +367,9 @@ header.banner {
     background-size: cover;
 
 }
+
+
+#modal .modal {
+    
+    height: 80%;
+}

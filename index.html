@@ -132,7 +132,8 @@
 
         <div class=" col-lg-4 col-md-6 col-sm-10 px-lg-3  px-md-3  mb-3 ">
           <div class="OverlayContainer">
-            <a href="#"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/1.jpg" class="img-fluid">
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"><img
+                src="./startbootstrap-agency-gh-pages/assets/img/portfolio/1.jpg" class="img-fluid">
 
               <div class="overlay">
                 <div id="text"><i class="fa-solid fa-plus"></i></div>
@@ -146,7 +147,7 @@
 
         <div class=" col-lg-4 col-md-6 col-sm-10 px-lg-3  px-md-3  mb-3 ">
           <div class="OverlayContainer">
-            <a href="#"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/2.jpg" class="img-fluid">
+            <a data-bs-toggle="modal" data-bs-target="#Modal2" type="button"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/2.jpg" class="img-fluid" >
 
               <div class="overlay">
                 <div id="text"><i class="fa-solid fa-plus"></i></div>
@@ -159,7 +160,7 @@
         </div>
         <div class=" col-lg-4 col-md-6 col-sm-10 px-lg-3  px-md-3  mb-3 ">
           <div class="OverlayContainer">
-            <a href="#"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/3.jpg" class="img-fluid">
+            <a data-bs-toggle="modal" data-bs-target="#Modal3" type="button"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/3.jpg" class="img-fluid">
 
               <div class="overlay">
                 <div id="text"><i class="fa-solid fa-plus"></i></div>
@@ -172,7 +173,7 @@
         </div>
         <div class=" col-lg-4 col-md-6 col-sm-10 px-lg-3  px-md-3  mb-3 ">
           <div class="OverlayContainer">
-            <a href="#"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/4.jpg" class="img-fluid">
+            <a data-bs-toggle="modal" data-bs-target="#Modal4" type="button"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/4.jpg" class="img-fluid">
 
               <div class="overlay">
                 <div id="text"><i class="fa-solid fa-plus"></i></div>
@@ -186,7 +187,7 @@
 
         <div class=" col-lg-4 col-md-6 col-sm-10 px-lg-3  px-md-3  mb-3 ">
           <div class="OverlayContainer">
-            <a href="#"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/5.jpg" class="img-fluid">
+            <a data-bs-toggle="modal" data-bs-target="#Modal5" type="button"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/5.jpg" class="img-fluid">
 
               <div class="overlay">
                 <div id="text"><i class="fa-solid fa-plus"></i></div>
@@ -200,7 +201,7 @@
 
         <div class=" col-lg-4 col-md-6 col-sm-10 px-lg-3  px-md-3  mb-3 ">
           <div class="OverlayContainer">
-            <a href="#"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/6.jpg" class="img-fluid">
+            <a data-bs-toggle="modal" data-bs-target="#Modal6" type="button"><img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/6.jpg" class="img-fluid">
 
               <div class="overlay">
                 <div id="text"><i class="fa-solid fa-plus"></i></div>
@@ -422,10 +423,10 @@
   <!--Contact Us Section Start-->
   <section class="text-white" id="contact">
     <div class="container-md">
-      <h2 class="display-6 fw-bold pt-5">
+      <h2 class="display-6 fw-bold pt-5 text-center">
         CONTACT US
       </h2>
-      <p class="fst-italic  mt-3 mb-2 text-secondary" style="font-weight:500">Lorem ipsum dolor sit amet consectetur.
+      <p class="fst-italic  mt-3 mb-2 text-secondary text-center" style="font-weight:500">Lorem ipsum dolor sit amet consectetur.
       </p>
 
 
@@ -470,8 +471,8 @@
 
         <div class="col-md">
           <div class="form-floating mt-4 text-secondary text-start fw-bold">
-            <textarea class="form-control" placeholder="Your Message *" id="floatingTextarea2"
-              style="height: 17.9rem" required></textarea>
+            <textarea class="form-control" placeholder="Your Message *" id="floatingTextarea2" style="height: 17.9rem"
+              required></textarea>
             <label for="floatingTextarea2">Your Message *</label>
             <div class="valid-feedback">
               Looks good!
@@ -483,7 +484,8 @@
         </div>
 
 
-        <div class="text-center"> <button class="btn btn-warning btn-lg py-3 px-4 my-5 text-white fw-bold" type="submit">SEND
+        <div class="text-center"> <button class="btn btn-warning btn-lg py-3 px-4 my-5 text-white fw-bold"
+            type="submit">SEND
             MESSAGE</button>
         </div>
 
@@ -508,7 +510,8 @@
   <section class="bg-white my-5">
     <div class="container d-md-flex justify-content-between align-items-center text-center">
       <div>
-        <p> Copyright &copy; Your Website 2022 </p>
+        <p> Copyright &copy; 2022 </p>
+        <p class="fw-bold"> Developer: Nathan Turkson </p>
       </div>
       <div class="my-3">
         <span>
@@ -530,6 +533,196 @@
   </section>
   <!--Footer Section End-->
 
+
+  <!--Modal Section Start -->
+  <section id="modal">
+
+    <!-- Modal -->
+    <div class="modal fade h-100" style="width: 100%;" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" style="height: 100vh; ">
+        <div class="modal-content">
+
+          <div class="ms-auto pt-3 me-4">
+            <img src="/startbootstrap-agency-gh-pages/assets/img/close-icon.svg" style="height: 3rem;" class="ms-auto"
+              alt="" type="button" data-bs-dismiss="modal">
+          </div>
+          <div class="modal-body text-center">
+            <h1 class="modal-title text-center fw-bold fs-1" id="exampleModalLabel">PROJECT X-MEN</h1>
+            <p class="fst-italic fw-bold text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/1.jpg" class="mt-4 img-fluid" alt="">
+
+            <p class="py-5 text-center mx-auto " style="width: 70%;"> Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+              blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita
+              beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+
+
+              <p class="m-0 p-0"><span class="fw-bold">Client: </span> Threads</p>
+              <p class="m-0 p-0"><span class="fw-bold">Category: </span>: Illustration</p>
+
+              <button type="button" class="btn btn-warning btn-lg my-5 py-3 px-4 text-white fw-bold" data-bs-dismiss="modal"><i class="fa-solid fa-x me-2"></i> ClOSE PROJECT</button>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+
+
+     
+    <div class="modal fade h-100" style="width: 100%;" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" style="height: 100vh; ">
+        <div class="modal-content">
+
+          <div class="ms-auto pt-3 me-4">
+            <img src="/startbootstrap-agency-gh-pages/assets/img/close-icon.svg" style="height: 3rem;" class="ms-auto"
+              alt="" type="button" data-bs-dismiss="modal">
+          </div>
+          <div class="modal-body text-center">
+            <h1 class="modal-title text-center fw-bold fs-1" id="exampleModalLabel">PROJECT X-MEN</h1>
+            <p class="fst-italic fw-bold text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/2.jpg" class="mt-4 img-fluid" alt="">
+
+            <p class="py-5 text-center mx-auto " style="width: 70%;"> Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+              blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita
+              beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+
+
+              <p class="m-0 p-0"><span class="fw-bold">Client: </span> Threads</p>
+              <p class="m-0 p-0"><span class="fw-bold">Category: </span>: Illustration</p>
+
+              <button type="button" class="btn btn-warning btn-lg my-5 py-3 px-4 text-white fw-bold" data-bs-dismiss="modal"><i class="fa-solid fa-x me-2"></i> ClOSE PROJECT</button>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade h-100" style="width: 100%;" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" style="height: 100vh; ">
+        <div class="modal-content">
+
+          <div class="ms-auto pt-3 me-4">
+            <img src="/startbootstrap-agency-gh-pages/assets/img/close-icon.svg" style="height: 3rem;" class="ms-auto"
+              alt="" type="button" data-bs-dismiss="modal">
+          </div>
+          <div class="modal-body text-center">
+            <h1 class="modal-title text-center fw-bold fs-1" id="exampleModalLabel">PROJECT X-MEN</h1>
+            <p class="fst-italic fw-bold text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/3.jpg" class="mt-4 img-fluid" alt="">
+
+            <p class="py-5 text-center mx-auto " style="width: 70%;"> Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+              blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita
+              beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+
+
+              <p class="m-0 p-0"><span class="fw-bold">Client: </span> Threads</p>
+              <p class="m-0 p-0"><span class="fw-bold">Category: </span>: Illustration</p>
+
+              <button type="button" class="btn btn-warning btn-lg my-5 py-3 px-4 text-white fw-bold" data-bs-dismiss="modal"><i class="fa-solid fa-x me-2"></i> ClOSE PROJECT</button>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade h-100" style="width: 100%;" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" style="height: 100vh; ">
+        <div class="modal-content">
+
+          <div class="ms-auto pt-3 me-4">
+            <img src="/startbootstrap-agency-gh-pages/assets/img/close-icon.svg" style="height: 3rem;" class="ms-auto"
+              alt="" type="button" data-bs-dismiss="modal">
+          </div>
+          <div class="modal-body text-center">
+            <h1 class="modal-title text-center fw-bold fs-1" id="exampleModalLabel">PROJECT X-MEN</h1>
+            <p class="fst-italic fw-bold text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/4.jpg" class="mt-4 img-fluid" alt="">
+
+            <p class="py-5 text-center mx-auto " style="width: 70%;"> Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+              blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita
+              beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+
+
+              <p class="m-0 p-0"><span class="fw-bold">Client: </span> Threads</p>
+              <p class="m-0 p-0"><span class="fw-bold">Category: </span>: Illustration</p>
+
+              <button type="button" class="btn btn-warning btn-lg my-5 py-3 px-4 text-white fw-bold" data-bs-dismiss="modal"><i class="fa-solid fa-x me-2"></i> ClOSE PROJECT</button>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="modal fade h-100" style="width: 100%;" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" style="height: 100vh; ">
+        <div class="modal-content">
+
+          <div class="ms-auto pt-3 me-4">
+            <img src="/startbootstrap-agency-gh-pages/assets/img/close-icon.svg" style="height: 3rem;" class="ms-auto"
+              alt="" type="button" data-bs-dismiss="modal">
+          </div>
+          <div class="modal-body text-center">
+            <h1 class="modal-title text-center fw-bold fs-1" id="exampleModalLabel">PROJECT X-MEN</h1>
+            <p class="fst-italic fw-bold text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/5.jpg" class="mt-4 img-fluid" alt="">
+
+            <p class="py-5 text-center mx-auto " style="width: 70%;"> Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+              blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita
+              beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+
+
+              <p class="m-0 p-0"><span class="fw-bold">Client: </span> Threads</p>
+              <p class="m-0 p-0"><span class="fw-bold">Category: </span>: Illustration</p>
+
+              <button type="button" class="btn btn-warning btn-lg my-5 py-3 px-4 text-white fw-bold" data-bs-dismiss="modal"><i class="fa-solid fa-x me-2"></i> ClOSE PROJECT</button>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade h-100" style="width: 100%;" id="Modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" style="height: 100vh; ">
+        <div class="modal-content">
+
+          <div class="ms-auto pt-3 me-4">
+            <img src="/startbootstrap-agency-gh-pages/assets/img/close-icon.svg" style="height: 3rem;" class="ms-auto"
+              alt="" type="button" data-bs-dismiss="modal">
+          </div>
+          <div class="modal-body text-center">
+            <h1 class="modal-title text-center fw-bold fs-1" id="exampleModalLabel">PROJECT X-MEN</h1>
+            <p class="fst-italic fw-bold text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <img src="./startbootstrap-agency-gh-pages/assets/img/portfolio/6.jpg" class="mt-4 img-fluid" alt="">
+
+            <p class="py-5 text-center mx-auto " style="width: 70%;"> Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+              blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita
+              beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+
+
+              <p class="m-0 p-0"><span class="fw-bold">Client: </span> Threads</p>
+              <p class="m-0 p-0"><span class="fw-bold">Category: </span>: Illustration</p>
+
+              <button type="button" class="btn btn-warning btn-lg my-5 py-3 px-4 text-white fw-bold" data-bs-dismiss="modal"><i class="fa-solid fa-x me-2"></i> ClOSE PROJECT</button>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!--Modal Section End  -->
 
 
 
